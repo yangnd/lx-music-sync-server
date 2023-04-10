@@ -1,4 +1,4 @@
-FROM 19.8.1-buster AS builder
+FROM node:19.8.1-buster AS builder
 WORKDIR /server
 COPY . .
 RUN npm install
