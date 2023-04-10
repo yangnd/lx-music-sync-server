@@ -1,4 +1,4 @@
-FROM node:16-alpine AS builder
+FROM 19.8.1-buster AS builder
 WORKDIR /server
 COPY . .
 RUN npm install
